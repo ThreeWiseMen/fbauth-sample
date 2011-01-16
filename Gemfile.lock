@@ -44,7 +44,7 @@ PLATFORMS
 
 DEPENDENCIES
   fastercsv
-  fbauth
+  fbauth (= 0.9.1)
   haml
   heroku
   rails (= 2.3.10)
