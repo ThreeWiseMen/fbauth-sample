@@ -13,6 +13,7 @@ GEM
     activesupport (2.3.10)
     configuration (1.1.0)
     fastercsv (1.5.3)
+    fbauth (0.9.0)
     haml (3.0.23)
     heroku (1.12.1)
       json_pure (>= 1.2.0, < 1.5.0)
@@ -41,6 +42,7 @@ PLATFORMS
 
 DEPENDENCIES
   fastercsv
+  fbauth
   haml
   heroku
   rails (= 2.3.10)
