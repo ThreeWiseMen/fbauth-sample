@@ -1,5 +1,5 @@
 .bundle
-**/*.sqlite3
-**/*.swp
-**/*.log
+*.sqlite3
+*.swp
+*.log
 tmp
