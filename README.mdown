@@ -1,4 +1,5 @@
-== TWM Facebook Auth Plugin
+TWM Facebook Auth Plugin
+========================
 
 The purpose of this plugin is to make it easier for someone writing a Facebook app to deal with all the Facebook
 authentication craziness.
@@ -14,7 +15,8 @@ the Graph API.
 
 Here are the scenarios we'd like to handle:
 
-= iFrame Apps
+iFrame Apps
+-----------
 
 - first page load as an iFrame app inside Facebook, where authentication params are sent in the URL used for your iFrame
   - this is particularly required for mobile Safari and other browsers blocking cross-domain cookies by default
@@ -24,19 +26,22 @@ Here are the scenarios we'd like to handle:
 
 - the access token you get is time-limited, if it has expired you need to be re-authenticated
 
-= External (Connect) Apps
+External (Connect) Apps
+-----------------------
 
 - handling an OAuth exchange back & forth with Facebook to handle authentication and capture URL parameters back for
   token
 
-== Auth token flow
+Auth token flow
+===============
 
 - check session data
   - if not empty, verify validity (expiry, look up user)
   - if empty or validity fails try from url parameters
   - if empty or validity fails try from cookie
 
-== Questions we need to answer:
+Questions we need to answer:
+============================
 
   - what timezone is the OAuth token expiry value in? (we get it in Epoch, no TZ data, assume San Fran?)
   - what happens when time approaches the OAuth token expiry?
@@ -48,4 +53,5 @@ Here are the scenarios we'd like to handle:
       - "unknown" - user not logged in
       - "notConnected" - user has not added app
 
-== Screens Required to Implement
+Screens Required to Implement
+=============================
