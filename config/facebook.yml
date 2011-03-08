@@ -2,18 +2,26 @@ development:
   app_id: 114653015261512
   app_context: "svetzal-auth"
   auth_path: "/fbauth"
+  canvas_url: http://fbauth.heroku.com/
+  app_secret: bc1f80850dbc34149ba40bd81ebd8375
 
 test:
   app_id: 114653015261512
   app_context: "svetzal-auth"
   auth_path: "/fbauth"
+  canvas_url: http://fbauth.heroku.com/
+  app_secret: bc1f80850dbc34149ba40bd81ebd8375
 
 cucumber:
   app_id: 114653015261512
   app_context: "svetzal-auth"
   auth_path: "/fbauth"
+  canvas_url: http://fbauth.heroku.com/
+  app_secret: bc1f80850dbc34149ba40bd81ebd8375
 
 production:
   app_id: 114653015261512
   app_context: "svetzal-auth"
   auth_path: "/fbauth"
+  canvas_url: http://fbauth.heroku.com/
+  app_secret: bc1f80850dbc34149ba40bd81ebd8375
