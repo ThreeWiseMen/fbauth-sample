@@ -13,7 +13,7 @@ GEM
     activesupport (2.3.11)
     configuration (1.2.0)
     fastercsv (1.5.4)
-    fbauth (1.2.2.3)
+    fbauth (1.2.T.1)
     haml (3.0.25)
     heroku (1.19.1)
       activesupport (>= 2.1.0)
@@ -43,7 +43,7 @@ PLATFORMS
 
 DEPENDENCIES
   fastercsv
-  fbauth (~> 1.2)
+  fbauth (= 1.2.T.1)
   haml
   heroku
   rails (= 2.3.11)

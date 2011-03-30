@@ -5,7 +5,7 @@ gem 'rails', '2.3.11'
 gem 'haml'
 gem 'sqlite3-ruby'
 gem 'fastercsv'
-gem 'fbauth', "~> 1.2"
+gem 'fbauth', "1.2.T.1"
 
 group :test do
 #  gem 'autotest'
